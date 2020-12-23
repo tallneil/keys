@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20100913-r5387">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Runner.java" package="" timestamp="15-May-2012 15:42:38">
+        <select from="117" to="117"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Window.java" package="" timestamp="15-May-2012 15:42:38">
+        <select from="117" to="117"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="LeftPanel.java" package="" timestamp="15-May-2012 15:45:26">
+        <select from="117" to="117"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="RightPanel.java" package="" timestamp="15-May-2012 15:45:26">
+        <select from="117" to="117"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Menu.java" package="" timestamp="15-May-2012 15:45:56">
+        <select from="117" to="117"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Keyboard.java" package="" timestamp="15-May-2012 15:46:18">
+        <select from="117" to="117"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

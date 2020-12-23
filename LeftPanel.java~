@@ -1,0 +1,67 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+
+public class LeftPanel extends JPanel{
+   
+   private ArrayList<Saved> list = new ArrayList<Saved>();
+   private ArrayList<JButton> buttons = new ArrayList<JButton>();
+   private JPanel space;
+   private Keyboard k;
+   private RightPanel r;
+   
+   public LeftPanel(){
+      setBackground( Color.WHITE );
+      setBorder( BorderFactory.createLineBorder(Color.BLACK,1) );
+      setLayout( new BorderLayout() );
+      
+      JLabel title = new JLabel("SAVED CONFIGURATIONS", SwingConstants.CENTER);
+      title.addKeyListener( RightPanel.listen );
+      add(title,BorderLayout.NORTH);
+      
+      space = new JPanel();
+      space.setLayout(new GridLayout( 15,1 )); 
+      add(space,BorderLayout.CENTER);
+      
+      addKeyListener( RightPanel.listen );
+      
+      k = Window.getKeyboard();
+      r = Window.getMenu().getRight();
+      System.out.println( r);
+      
+   }
+   
+   public void addList(Saved s){
+      list.add(s);
+      display();
+   }
+   
+   public void display(){
+      String str = list.get( list.size()-1 ).toString();
+      JButton btn = new JButton(str);
+      btn.addActionListener( new Clicker() );
+      btn.addKeyListener( RightPanel.listen );
+      buttons.add(btn);
+      space.add( btn );
+      space.revalidate();
+   }
+   
+   public class Clicker implements ActionListener {
+      public void actionPerformed(ActionEvent e) {
+         JButton clicked = (JButton)(e.getSource());
+         String text = clicked.getText();
+         Saved active = new Saved( k.getTextConfig() , text ); //initialize
+         for (Saved temp : list){
+            if (temp.toString().equals(text)){
+               active = temp;
+               //System.out.println(text);
+            }
+         }
+         String[] newConfig = active.getList();
+         k.setConfig(newConfig);
+         //r.setNew(newConfig);
+
+      }
+   }
+}

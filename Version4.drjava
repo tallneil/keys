@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20100913-r5387">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Keyboard.java" package="" timestamp="23-May-2012 09:26:44">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+      <file name="Runner.java" package="" timestamp="21-May-2012 08:54:18">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+      <file name="Window.java" package="" timestamp="15-May-2012 15:42:38">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+      <file name="LeftPanel.java" package="" timestamp="15-May-2012 15:45:26">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+      <file name="RightPanel.java" package="" timestamp="15-May-2012 15:45:26">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+      <file name="Menu.java" package="" timestamp="15-May-2012 15:45:56">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+      <file name="Player.java" package="" timestamp="22-May-2012 08:55:08">
+        <select from="1714" to="1714"/>
+        <scroll column="1006" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

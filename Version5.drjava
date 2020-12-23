@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20100913-r5387">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="RightPanel.java" package="" timestamp="23-May-2012 15:55:28">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Runner.java" package="" timestamp="21-May-2012 08:54:18">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Menu.java" package="" timestamp="15-May-2012 15:45:56">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Player.java" package="" timestamp="22-May-2012 08:55:08">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="LeftPanel.java" package="" timestamp="23-May-2012 15:27:32">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Window.java" package="" timestamp="23-May-2012 15:47:40">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Keyboard.java" package="" timestamp="23-May-2012 15:48:42">
+        <select from="587" to="587"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>
