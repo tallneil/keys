@@ -12,3 +12,6 @@ Saving a set of key mappings
 
 ![Screenshot](/screenshots/screen_04.png)
 Pressing a key
+
+![Screenshot](/screenshots/screen_05.png)
+Mockup created in Microsoft Word
